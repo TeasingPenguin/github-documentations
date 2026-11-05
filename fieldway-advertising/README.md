@@ -27,7 +27,13 @@ The same details were typed in five or six times, by hand, for every deal. Sales
 
 ## The constraint
 
-I couldn't replace the business's systems. Zoho, Google Drive, the spreadsheets and the folder layout the designers relied on all had to stay as they were. My job was to **plug into the existing workflow and take out the repeated typing**, not to rebuild it. With a clean slate I would have designed some of it differently (see [What I'd do differently](#what-id-do-differently)).
+I couldn't replace the business's systems. Zoho, Google Drive, the spreadsheets and the folder layout the designers relied on all had to stay as they were. My job was to **plug into the existing workflow and take out the repeated typing**, not to rebuild it.
+
+### Why Make.com
+
+I chose Make on purpose so the **admin staff could maintain it themselves**. Its visual editor lets non-developers see each step, change an email template, add a golf club or fix a broken connection without needing me. That meant the business didn't depend on one person to keep its automations running, which mattered more than technical neatness.
+
+With a clean slate I would have designed some of it differently (see [What I'd do differently](#what-id-do-differently)).
 
 ---
 
@@ -126,6 +132,7 @@ This was an early project and it shows in places. Knowing what I know now:
 - **Keep secrets in connections.** Some API keys sat directly in HTTP modules. I'd move them all into Make connections or keys.
 - **Add error handling and alerts**, so a failed Zoho or Drive step tells someone instead of failing quietly.
 - **Rethink the stack where allowed.** With a free hand I'd have merged the spreadsheets, CRM and invoicing into fewer systems instead of linking them all together.
+- **Build it in-house.** My own preference is code I control: a Python service running on the company's own server or a VPS, with the settings in version control, proper logging and tests. It costs nothing per operation, keeps client data off third-party automation platforms, and can be tested before changes go live. Make was the right call for a team that needed to edit it themselves, but for a business with a developer to look after it, I'd build it this way.
 
 ---
 
