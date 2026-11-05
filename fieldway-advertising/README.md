@@ -2,7 +2,7 @@
 
 **Built by:** Jordan Leak  
 **Role:** Sales Executive, plus automation, telesales management and lead generation  
-**When:** 2025, about a year and a bit  
+**When:** 2024, about a year and a bit  
 **Tools:** Make.com, DocuSeal, Zoho Invoice, Google Drive, Google Sheets, Airtable, Dialpad, a custom desktop app
 
 Fieldway Advertising sells advertising space at golf clubs across the UK: adverts on scorecards, with golf passes included. A deal goes from a phone call to a signed 24-month contract, an invoice and a design job for the in-house graphics team.
